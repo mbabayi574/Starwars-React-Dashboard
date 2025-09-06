@@ -1,5 +1,5 @@
 {
-  "name": "bun-react-template",
+  "name": "starwars-react-dashboard",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -9,12 +9,16 @@
     "start": "NODE_ENV=production bun src/index.tsx"
   },
   "dependencies": {
-    "react": "^19",
-    "react-dom": "^19"
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
     "@types/bun": "latest"
+  },
+  "module": "src/index.tsx",
+  "peerDependencies": {
+    "typescript": "^5.9.2"
   }
 }
