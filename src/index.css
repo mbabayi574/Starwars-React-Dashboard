@@ -1,0 +1,7 @@
+/* Import */
+@import url("./assets/fonts/iransans/iransans.css");
+
+/* Use iransans as Default Font */
+body {
+  font-family: "iransans", sans-serif, Arial;
+}
